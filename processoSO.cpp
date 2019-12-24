@@ -73,7 +73,7 @@ int main (int argc, char *argv[]){
 	int N;
 	
 	//Arquivos de entrada
-	std::ifstream entrada("sinal_ruido.dat");
+	std::ifstream entrada("input.dat");
 	
 	if (entrada.is_open() == true){
 		while(!entrada.eof()){

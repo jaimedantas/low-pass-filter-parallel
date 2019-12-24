@@ -67,7 +67,7 @@ int main(int argc, char *argv[]){
 	//as entradas e saidas serao armazenadas em um vetor e em arquivos
 	float row_1, row_2, row_3;
 	//Arquivos de entrada
-	std::ifstream entrada("sinal_ruido.dat");
+	std::ifstream entrada("input.dat");
 	if (entrada.is_open() == true){
 		while(!entrada.eof()){
 			entrada>>row_1>>row_2>>row_3;//vai armezenar os valores das colunas
